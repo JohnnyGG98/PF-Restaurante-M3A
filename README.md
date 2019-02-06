@@ -12,4 +12,4 @@
 
 ![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title") 
 
-![ScreenShot](https://raw.github.com/Taguz98/PF-M3A/master/Diagramas) 
+![ScreenShot](https://raw.github.com/Taguz98/PF-M3A/master/Diagramas/D%20Relacional%20V-1.png) 
