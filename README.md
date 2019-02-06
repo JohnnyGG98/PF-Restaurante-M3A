@@ -10,6 +10,4 @@
 | Lina Orellana | Armando Aucapiña   | Paola Medina       | 
 |               |                    | Johnny Garcia      |
 
-![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title") 
-
-![ScreenShot](https://raw.github.com/Taguz98/PF-M3A/master/Diagramas/Relacional V-1.png) 
+![ScreenShot](https://raw.github.com/Taguz98/PF-M3A/master/Diagramas/DR.png) 
