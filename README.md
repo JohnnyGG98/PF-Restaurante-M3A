@@ -4,15 +4,15 @@
 
 ## Primera parte: 
 ###Base de datos: 
-*Dannes Maurad 
-*Lina Orellana  
++Dannes Maurad 
++Lina Orellana  
 
 ###Diagrama de clases: 
-*David Cajamarca 
-*Armando Aucapiña 
++David Cajamarca 
++Armando Aucapiña 
 
 ###Interfaz grafica: 
-*Andres Novillo 
-*Paola Medina  
-*Johnny Garcia 
++Andres Novillo 
++Paola Medina  
++Johnny Garcia 
 
