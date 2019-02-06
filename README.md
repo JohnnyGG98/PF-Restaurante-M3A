@@ -1,22 +1,12 @@
 # PF-M3A 
 
-# Proyecto Final 3 Ciclo - Restaurante
+## Proyecto Final 3 Ciclo - Restaurante
 
-## Primera parte: 
+### Division del trabajo - Primera parte: 
 
-### Base de datos:
-
-+ Dannes Maurad 
-+ Lina Orellana  
-
-### Diagrama de clases: 
-
-+ David Cajamarca 
-+ Armando Aucapiña 
-
-### Interfaz grafica: 
-
-+ Andres Novillo
-+ Paola Medina  
-+ Johnny Garcia 
+| Base de Datos | Diagrama de Clases | Diseño de Interfaz |
+| :------------ | :----------------: | -----------------: | 
+| Dannes Maurad | David Cajamarca    | Andres Novillo     | 
+| Lina Orellana | Armando Aucapiña   | Paola Medina       | 
+|               |                    | Johnny Garcia      |
 
