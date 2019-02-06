@@ -10,6 +10,6 @@
 | Lina Orellana | Armando Aucapiña   | Paola Medina       | 
 |               |                    | Johnny Garcia      |
 
-![ScreenShot](https://raw.github.com/Taguz98/PF-M3A/master/Diagramas/DR.png) 
+### Diagrama Relacional del Restaurante
 
 ![Diagrama Relacional](https://github.com/Taguz98/PF-M3A/blob/master/Diagramas/DR.jpg "Relacional") 
