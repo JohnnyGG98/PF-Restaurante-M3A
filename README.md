@@ -10,6 +10,6 @@
 | Lina Orellana | Armando Aucapiña   | Paola Medina       | 
 |               |                    | Johnny Garcia      |
 
-### Diagrama de Clases 
+### Diagrama Relacional 
 
-![Sin titulo](Diagramas/D Relacional V-1.png "Diagrama Relacional")
+![Sin titulo](Diagramas/D Relacional V-1.png)
