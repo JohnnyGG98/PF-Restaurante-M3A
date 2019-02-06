@@ -12,4 +12,6 @@
 
 ### Diagrama Relacional 
 
-![Sin titulo](Diagramas/D Relacional V-1.png)
+![D Relacional][1]
+
+[1]: Diagramas/D Relacional V-1.png
