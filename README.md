@@ -12,4 +12,4 @@
 
 ![ScreenShot](https://raw.github.com/Taguz98/PF-M3A/master/Diagramas/DR.png) 
 
-![Diagrama Relacional](/relative/DR.png/to/img.jpg?raw=true "Optional Title") 
+![Diagrama Relacional](https://github.com/Taguz98/PF-M3A/blob/master/Diagramas/DR.jpg "Relacional") 
