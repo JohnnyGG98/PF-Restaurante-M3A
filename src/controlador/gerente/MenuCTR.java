@@ -27,14 +27,12 @@ public class MenuCTR {
         EstiloCTR.animacionBtnFondo(pnlMenu.getBtnEditar(), pnlMenu.getBtnEliminar(),
                 pnlMenu.getBtnIngresar(), pnlMenu.getBtnVer());
 
-        //Animacion de la tbl  
+        //Estilo de la tbl  
         EstiloCTR.estiloTbl(pnlMenu.getTblMenu());
         
-        vtnPrin.getBtnSalir().addActionListener(e -> clickSalir());
+        //Animacion txt 
+        EstiloCTR.animacionTxtBorde(pnlMenu.getTxtBuscar()); 
     }
-    
-    public void clickSalir() {
-        System.exit(0);
-    }
+
     
 }

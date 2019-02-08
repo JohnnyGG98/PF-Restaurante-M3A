@@ -17,3 +17,7 @@
 ## Prototipo del Sistema 
 
 ![Mockup CRUD](https://github.com/Taguz98/PF-M3A/blob/master/Prototipos/VistaCRUD.jpg "CRUD") 
+
+## Letra del logo  
+
+### Vladimir Script

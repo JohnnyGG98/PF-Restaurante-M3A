@@ -32,7 +32,7 @@ public class TblEstilo {
         tblHead.setBackground(new Color(60, 99, 130));
         tblHead.setForeground(new Color(255, 255, 255));
         tblHead.setOpaque(false);
-        tblHead.setFont(new Font("Arial", Font.PLAIN, 14));
+        tblHead.setFont(new Font("Arial", Font.PLAIN, 16));
         //Para que no se pueda reordenar las columnas 
         tblHead.setReorderingAllowed(false);
         //Para que no se pueda cambiar su longitud  

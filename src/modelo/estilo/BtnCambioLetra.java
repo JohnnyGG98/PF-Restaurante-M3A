@@ -35,16 +35,13 @@ public class BtnCambioLetra implements MouseListener{
     @Override
     public void mouseEntered(MouseEvent e) {
         btn.setForeground(new Color(255, 255, 234));
-        btn.setFont(new java.awt.Font("Arial", 1, 16));
-        //btn.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
-        
+        btn.setFont(new java.awt.Font("Arial", 1, 16));      
     }
 
     @Override
     public void mouseExited(MouseEvent e) {
         btn.setForeground(new Color(204, 204, 204));
         btn.setFont(new java.awt.Font("Arial", 1, 14));
-       // btn.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(60, 99, 130)));
     }
       
 }

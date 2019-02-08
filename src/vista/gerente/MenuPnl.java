@@ -85,7 +85,9 @@ public class MenuPnl extends javax.swing.JPanel {
         jLabel3.setFont(new java.awt.Font("Arial", 0, 16)); // NOI18N
         jLabel3.setText("Buscar:");
 
-        txtBuscar.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtBuscar.setBackground(new java.awt.Color(225, 225, 225));
+        txtBuscar.setFont(new java.awt.Font("Arial", 0, 16)); // NOI18N
+        txtBuscar.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         txtBuscar.setMaximumSize(new java.awt.Dimension(330, 30));
 
         btnIngresar.setBackground(new java.awt.Color(60, 99, 130));
@@ -146,7 +148,7 @@ public class MenuPnl extends javax.swing.JPanel {
         cbOdenarPor.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "", "Nombre", "Precio" }));
 
         cbOpciones.setFont(new java.awt.Font("Arial", 0, 16)); // NOI18N
-        cbOpciones.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Menu completo", "", "Menu por temporada", "Menu por categoria" }));
+        cbOpciones.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Menu completo", "Menu por temporada", "Menu por categoria" }));
 
         jLabel5.setFont(new java.awt.Font("Arial", 0, 16)); // NOI18N
         jLabel5.setText("Opciones:");
