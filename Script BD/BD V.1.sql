@@ -63,6 +63,8 @@ CREATE TABLE "productos"(
 	"precio" numeric(5, 2) NOT NULL,
 	"producto_elim" Boolean NOT NULL DEFAULT 'false', 
 	"tipo_producto" character varying(10) NOT NULL, 
+	"cantidad" integer NOT NULL, 
+	"medida" character varying(20) NOT NULL,
 	CONSTRAINT producto_pk PRIMARY KEY ("id_producto")
 ) WITH (OIDS = FALSE); 
 
@@ -264,14 +266,6 @@ CONSTRAINT tipo_persona_pk PRIMARY KEY ("id_tipo_persona")
 ) WITH(OIDS = FALSE);
 
 
-CREATE TABLE "calificacion_mesero"(
-"id_calificacion_mesero" serial NOT NULL,
-"id_empleado" integer NOT NULL,
-"numero_estrellas" integer NOT NULL,
-CONSTRAINT calificacion_mesero_pk PRIMARY KEY ("id_calificacion_mesero")
-) WITH(OIDS = FALSE);
-
-
 CREATE TABLE "usuarios"(
 "id_usuario" serial NOT NULL,
 "id_persona" integer NOT NULL,
@@ -297,7 +291,9 @@ CREATE TABLE "historial_ingreso"(
 "id_historial_ingreso" serial NOT NULL,
 "id_usuario" integer NOT NULL,
 "fecha_ingreso" DATE,
-"hora_ingreso" DATE,
+"hora_ingreso" time,
+"fecha_salida" DATE, 
+"hora_salida" time,
 CONSTRAINT historial_ingreso_pk PRIMARY KEY ("id_historial_ingreso")
 ) WITH(OIDS = FALSE);
 
@@ -388,12 +384,6 @@ FOREIGN KEY ("id_usuario") REFERENCES
 "usuarios"("id_usuario") ON UPDATE CASCADE 
 ON DELETE CASCADE; 
 
-
-ALTER TABLE "calificacion_mesero" 
-ADD CONSTRAINT "calificacion_mesero_fk0"
-FOREIGN KEY ("id_empleado") REFERENCES 
-"empleados"("id_empleado") ON UPDATE CASCADE 
-ON DELETE CASCADE; 
 
 
 ALTER TABLE "entregas" 

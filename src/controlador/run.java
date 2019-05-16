@@ -1,7 +1,9 @@
-
 package controlador;
 
-import controlador.gerente.GerenteCTR;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.swing.UIManager;
+import javax.swing.UnsupportedLookAndFeelException;
 import vista.contenedores.BienvenidaPnl;
 import vista.contenedores.VtnPrincipal;
 import vista.gerente.GerenteNvPnl;
@@ -11,36 +13,25 @@ import vista.gerente.GerenteNvPnl;
  * @author Johnny
  */
 public class run {
-    
-    public static void main (String [] args){
+
+    public static void main(String[] args) {
         estiloWindows();
-        
-        BienvenidaPnl pnlBd = new BienvenidaPnl(); 
-        GerenteNvPnl pnlNv = new GerenteNvPnl(); 
-        VtnPrincipal vtnPrin = new VtnPrincipal(); 
-        
-        GerenteCTR gr = new GerenteCTR(pnlBd, pnlNv, vtnPrin); 
-        
-        gr.iniciar();
+
+        BienvenidaPnl pnlBd = new BienvenidaPnl();
+        GerenteNvPnl pnlNv = new GerenteNvPnl();
+        VtnPrincipal vtnPrin = new VtnPrincipal();
+        vtnPrin.setVisible(true);
+
     }
-    
-    public static void estiloWindows(){
-                try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Windows".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
+
+    public static void estiloWindows() {
+        try {
+            UIManager.setLookAndFeel(javax.swing.UIManager.getCrossPlatformLookAndFeelClassName());
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(VtnPrincipal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(VtnPrincipal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(VtnPrincipal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(VtnPrincipal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            System.out.println("No se pudo cargar el look al field");
+        } catch (InstantiationException | IllegalAccessException | UnsupportedLookAndFeelException ex) {
+            Logger.getLogger(run.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-    
+
 }
